@@ -1,0 +1,1 @@
+{"version":3,"file":"main.bundle.js","mappings":";;;;;;AAAa;AACb","sources":["webpack://asm1ts/./src/frontend/App.ts"],"sourcesContent":["\"use strict\";\nconsole.log(\"App\");\n"],"names":[],"sourceRoot":""}

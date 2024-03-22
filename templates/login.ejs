@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include(`partials/head.ejs`) %>
+  </head>
+  <body>
+    <main class="container">
+        <%- include(`partials/header.ejs`) %>
+      </header>
+      <section class="row">
+        <div class="col text-center">
+          <form action="">
+            <div class="form-group">
+              <label for="username">Username:</label>
+              <input
+                type="text"
+                class="form-control"
+                name="username"
+                id="username"
+                aria-describedby="UsernameHelpId"
+                placeholder="username"
+              />
+              <small id="UsernameHelpId" class="form-text text-muted invisible"
+                >username không được bỏ trống hoặc ít hơn 3 kỳ tự</small
+              >
+            </div>
+
+            <div class="form-group">
+              <input
+                class="btn btn-primary"
+                type="submit"
+                name=""
+                value="Play game"
+              />
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <footer class="row text-center">
+        <%- include(`partials/footer.ejs`) %>
+      </footer>
+    </main>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <%- include(`partials/foot.ejs`) %>
+  </body>
+</html>
