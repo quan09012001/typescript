@@ -1,0 +1,48 @@
+/* style.css */
+.container {
+    max-width: 400px;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f900;
+
+}
+
+.form-group {
+    margin-bottom: 10px;
+    color: #16A2B8;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 0.5px solid #cccccc98;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 20%;
+    padding: 10px;
+    background-color: #16A2B8;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #16b8b8;
+}
+h1{
+    text-align: center;
+    color: #16A2B8;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

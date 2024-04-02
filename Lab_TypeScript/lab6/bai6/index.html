@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Link Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link custom CSS -->
+    <style>
+        /* Kích thước form và căn giữa */
+        .custom-form {
+            max-width: 30%;
+            margin: 10% auto;
+        }
+        /* Màu sắc và hiệu ứng */
+        body {
+            background-color: #f8f9fa;
+        }
+        .custom-form {
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            padding: 30px;
+            transition: box-shadow 0.3s ease-in-out;
+        }
+        .custom-form:hover {
+            box-shadow: 0 0 20px rgba(0,0,0,0.2);
+        }
+        /* Màu chữ của label */
+        label {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+   <div class="container custom-form">
+    <form action="" >
+        <div class="form-group">
+            <label for="title">Course Title</label>
+            <input type="text" class="form-control" id="title" placeholder="Enter Course Title">
+        </div>
+        <div class="form-group">
+            <label for="price">Course Price</label>
+            <input type="text" class="form-control" id="price" placeholder="Enter Course Price">
+        </div>
+        <button type="submit" class="btn btn-primary">Save</button>
+    </form>
+   </div>
+    <!-- Link Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Your custom JavaScript (optional) -->
+    <script src="dist/app.js"></script>
+</body>
+</html>
