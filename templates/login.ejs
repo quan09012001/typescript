@@ -7,18 +7,19 @@
     <main class="container">
         <%- include(`partials/header.ejs`) %>
       </header>
-      <section class="row">
+      <section class="row text-center">
         <div class="col">
           <form action="">
             <div class="form-group">
-              <label for="username">Username:</label>
+              Input your name:
               <input
                 type="text"
-                class="form-control"
+                class="form-control mx-auto"
                 name="username"
                 id="username"
                 aria-describedby="UsernameHelpId"
                 placeholder="username"
+                style="width: 30%;"
               />
               <small id="UsernameHelpId" class="form-text text-muted invisible"
                 >username không được bỏ trống hoặc ít hơn 3 kỳ tự</small
@@ -37,7 +38,7 @@
         </div>
       </section>
 
-      <footer class="row text-center">
+      <footer  class="bg-body-tertiary text-center">
         <%- include(`partials/footer.ejs`) %>
       </footer>
     </main>
